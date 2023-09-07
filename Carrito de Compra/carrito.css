@@ -1,6 +1,7 @@
 table {
   width: 50%; /* Para tener el ancho de la tabla */
   height: 300px; /* Para altura de la tabla */
+  background-color: aqua;
 }
 /* tr para generar las filas
    th para generar celdas de cabecera
@@ -9,4 +10,9 @@ table {
 table tr {
  background-color: white; /* Para resaltar filas de tabla */ 
   cursor: pointer;
+  text-align: justify; /* Para que el contenido de la celda quede justificado */
 }
+table th {
+  text-align: center; /* Para poner centrado el texto de las celdas de cabecera */
+}
+
