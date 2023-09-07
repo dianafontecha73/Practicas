@@ -1,0 +1,12 @@
+table {
+  width: 50%; /* Para tener el ancho de la tabla */
+  height: 300px; /* Para altura de la tabla */
+}
+/* tr para generar las filas
+   th para generar celdas de cabecera
+   td para generar las celdas de contenido.
+*/
+table tr {
+ background-color: white; /* Para resaltar filas de tabla */ 
+  cursor: pointer;
+}
