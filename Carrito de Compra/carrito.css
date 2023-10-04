@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body,table, caption{
     background-color: gray;
     color:white;
@@ -21,3 +22,23 @@ body,table, caption{
   td{
     border: 1px dashed white;
   }
+=======
+table {
+  width: 50%; /* Para tener el ancho de la tabla */
+  height: 300px; /* Para altura de la tabla */
+  background-color: aqua;
+}
+/* tr para generar las filas
+   th para generar celdas de cabecera
+   td para generar las celdas de contenido.
+*/
+table tr {
+ background-color: white; /* Para resaltar filas de tabla */ 
+  cursor: pointer;
+  text-align: justify; /* Para que el contenido de la celda quede justificado */
+}
+table th {
+  text-align: center; /* Para poner centrado el texto de las celdas de cabecera */
+}
+
+>>>>>>> 4bbd093d5bf19b2b92f3da4671d4efa43f05d794
