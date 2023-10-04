@@ -1,0 +1,61 @@
+body {
+    width: 50%;
+    height: 50vh;
+    margin: 0;
+    background-color: aquamarine;
+    color:black;
+    font-family: Tahoma;
+    font-size: 16 px;
+    }
+    h1, p {
+    margin: 1 em auto;
+    text-align: center;
+    } 
+    form {
+        width: 100 vw;
+        max-width: 500 px;
+        min-width: 300 px;
+        margin: 0 auto;
+        padding-bottom: 2 em;
+    }
+    fieldset {
+        border: none;
+        padding: 2 rem 0;
+        border-bottom: 3 px solid cornflowerblue;
+    }
+    fielset:last-of-type {
+        border-bottom: none;
+    }
+    label {
+        display: block;
+        margin: 0.5 rem 0;
+    }
+    input, textarea, select {
+        margin: 10 px 0 0 0;
+        width: 100%;
+        min-height: 2 em;
+    }
+    input, textarea {
+        background-color: aliceblue;
+        color: white;
+       border: 1px solid black;
+    }
+    .inline {
+      width: unset;
+      margin: 0 0.5em 0 0;
+      vertical-align: middle;
+    }
+    [type="submit"] {
+      display: block;
+      width: 60%;
+      margin: 1em auto;
+      height: 2em;
+      /* finputont-size: 1.1rem; */
+      background-color: #3b3b4f;
+      border-color: white;
+      min-width: 300px;
+      cursor: pointer;
+    }
+    input[type="file"] {
+      padding: 1px 2px;
+    }

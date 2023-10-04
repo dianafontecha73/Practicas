@@ -22,7 +22,7 @@ body, #wrapper {
     width: 100px;
     height: 30px;
     border-radius: 50%;
-    border: 50% solid white;
+    border: 5px solid white;
     display: block;
     position: absolute;
   }

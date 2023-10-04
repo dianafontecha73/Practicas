@@ -1,0 +1,23 @@
+body,table, caption{
+    background-color: gray;
+    color:white;
+    font-size: 18px;
+  }
+  table {
+    border: 1px solid white;
+    width: 50%; /* Para tener el ancho de la tabla */
+    height: 300px; /* Para altura de la tabla */
+    background-color: aqua;
+  }
+  table tr {
+    background-color: white; /* Para resaltar filas de tabla */ 
+     cursor: pointer;
+     text-align: justify; /* Para que el contenido de la celda quede justificado */
+   }
+  table th{
+    text-align: center; /* Para poner centrado el texto de las celdas de cabecera */
+    border: 1px solid black;
+  }
+  td{
+    border: 1px dashed white;
+  }
